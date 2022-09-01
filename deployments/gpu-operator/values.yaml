@@ -15,7 +15,7 @@ operator:
   #version: 1.6.2
   imagePullPolicy: IfNotPresent
   imagePullSecrets: []
-  defaultRuntime: docker
+  defaultRuntime: containerd 
   validator:
     image: cuda-sample
     repository: nvcr.io/nvidia/k8s
