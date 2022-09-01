@@ -43,7 +43,7 @@ operator:
 driver:
   repository: nvcr.io/nvidia
   image: driver
-  version: "460.32.03"
+  version: "450.172.01" 
   imagePullPolicy: IfNotPresent
   imagePullSecrets: []
   env: []
